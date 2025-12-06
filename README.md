@@ -8,6 +8,9 @@ Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entre
 
 IMG, IMG
 m, v
+|   |   |
+|---|---|
+| <img src="img/matricielle_vs_vecteur.jpg" alt="" > | <img src="img/raster_vs_vector.jpg" alt="" > |
 
 Les images vectorielles comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques.
 

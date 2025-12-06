@@ -26,7 +26,7 @@ dans **chaine_pico_streamlit**, diagramme de déploiement, composants
 
 PlantUML, https://www.planttext.com/
 
-```uml
+```UML
 @startuml
 Title "Diagramme de déploiement (WiFi)"
 '----------

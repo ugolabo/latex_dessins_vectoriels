@@ -12,17 +12,17 @@ Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entre
 
 photo
 
-<img src="img/reed_switch2.jpg" alt="" >
+<img src="img/reed_switch2.jpg" alt="" width="300px" >
 
 dessin conceptuel
 
-<img src="img/reed_switch1.jpg" alt="" >
+<img src="img/reed_switch1.jpg" alt="" width="300px" >
 
 Les images vectorielles comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques.
 
 dessin matriciel ou vectoriel
 
-<img src="img/reed_switch3.jpg" alt="" >
+<img src="img/reed_switch3.jpg" alt="" width="300px" >
 
 ## Dessins vectoriels
 

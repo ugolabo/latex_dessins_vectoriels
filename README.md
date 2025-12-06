@@ -133,12 +133,15 @@ PNG ici
 
 dans **bases_donnees_sql_nosql**
 
-schéma relationel et schéma physique de BD SQL
+BD SQL
 
-<img src="img/relational_schema.jpg" alt="" width="300px" >
-<img src="img/physical_schema.jpg" alt="" width="300px" >
+| schéma relationel | schéma physique |
+|---|---|
+| <img src="img/physical_schema.jpg" alt="" > | <img src="img/relational_schema.jpg" alt="" > |
+
 
 dans **chaine_pico_streamlit**
+
 modèle de données JSON pour MongoDB
 
 <img src="img/modele_bd_json.png" alt="" width="300px" >

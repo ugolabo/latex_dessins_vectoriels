@@ -10,7 +10,7 @@ Les images vectorielles comme les formats PDF et SVG sont plutôt faites de poin
 
 |   |   |
 |---|---|
-| <img src="img/matricielle_vs_vecteur.jpg" alt="" > | <img src="img/raster_vs_vector.jpg" alt="" > |
+|  <img src="img/raster_vs_vector.jpg" alt="" > | <img src="img/matricielle_vs_vecteur.jpg" alt="" > |
 
 ## Dessins vectoriels
 

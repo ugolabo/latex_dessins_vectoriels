@@ -21,11 +21,21 @@ Peu importe le format de la documentation, les dessins ajoutent beaucoup de vale
 
 Rendu PDF s'intègre à LaTeX, rendu SVG doit être converti, mais il s'intègre au Markdown. La conversion aussi en PNG, JPG pour Markdown, sites
 
-IMG, IMG, IMG et liens ou repo
+IMG, liens, repo
 PlantUML
-systeme_alarme_rpi
-bases_donnees_sql_nosql
+
+chaine_pico_streamlit
+code et résultat
 https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/
+plus dans le projet (code et résultats)
+
+systeme_alarme_rpi
+state
+
+bases_donnees_sql_nosql
+entity relationship
+
+
 Fritzing
 systeme_alarme_rpi
 
@@ -37,7 +47,10 @@ PlantUML
 https://www.plantuml.com/
 https://plantuml.online/
 https://www.planttext.com/
+
 exemples plus haut
+
+
 
 Graphviz et langage DOT
 https://graphviz.org/gallery/
@@ -49,6 +62,7 @@ TikZ/PGF
 tikz-cd
 chemfig
 forest
+IMG
 
 Mermaid et les autres en Markdown
 
@@ -58,6 +72,7 @@ boostée à l'IAgen parfois
 
 Fritzing
 exemples plus haut
+résultat
 
 Dia
 draw.io

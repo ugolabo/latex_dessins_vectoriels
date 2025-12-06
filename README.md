@@ -8,7 +8,7 @@ Un complément aux dépôts : **documentations_web_statiques** et **latex_pocket
 |---|---|
 |  <img src="img/raster_vs_vector.jpg" alt="" > | <img src="img/matricielle_vs_vecteur.jpg" alt="" > |
 
-Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entreprise, un dessin conceptuel pour illustrer un projet, une animation avec GIF... ce sont des images matricielles à base de pixels comme les format PNG, JPG, JPEG et autres.
+Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entreprise, un dessin conceptuel pour illustrer un projet, une animation avec GIF... ce sont des images matricielles (matrix, raster) à base de pixels comme les format PNG, JPG, JPEG et autres.
 
 photo
 
@@ -18,9 +18,9 @@ dessin conceptuel
 
 <img src="img/reed_switch1.jpg" alt="" width="300px" >
 
-Les images vectorielles comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques.
+Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques.
 
-dessin matriciel ou vectoriel
+peut être un dessin matriciel ou vectoriel
 
 <img src="img/reed_switch3.jpg" alt="" width="300px" >
 
@@ -34,9 +34,9 @@ Peu importe le format de la documentation, les dessins ajoutent beaucoup de vale
 
 Rendu PDF s'intègre à LaTeX, rendu SVG doit être converti, mais il s'intègre au Markdown. La conversion aussi en PNG, JPG pour Markdown, sites
 
-dans **chaine_pico_streamlit**, diagramme de déploiement, composants
+PlantUML, dessin avec langage dans https://www.planttext.com/ ou autre
 
-PlantUML, https://www.planttext.com/
+dans **chaine_pico_streamlit**, diagramme de déploiement (composants)
 
 ```
 @startuml
@@ -145,7 +145,7 @@ PNG ici
 
 dans **bases_donnees_sql_nosql**
 
-BD SQL
+schémas de BD SQL
 
 | schéma relationel | schéma physique |
 |---|---|
@@ -159,13 +159,11 @@ modèle de données JSON pour une collection sur MongoDB
 <img src="img/modele_bd_json.png" alt="" width="300px" >
 
 
-Fritzing
-
-raster
+Fritzing, dessin avec GUI
 
 dans **systeme_alarme_rpi**
 
-schéma de montage
+schéma de montage, raster
 
 <img src="img/schema_montage_fritzing.jpg" alt="" width="300px" >
 

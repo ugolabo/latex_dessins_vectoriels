@@ -129,7 +129,7 @@ ALARME -left-> [*]
 
 PNG ici
 
-<img src="img/diagramme_etat.png" alt="" width="300px" >
+<img src="img/diagramme_etat.jpg" alt="" width="300px" >
 
 dans **bases_donnees_sql_nosql**
 

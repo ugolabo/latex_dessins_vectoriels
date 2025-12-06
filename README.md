@@ -142,7 +142,7 @@ BD SQL
 
 dans **chaine_pico_streamlit**
 
-modèle de données JSON pour MongoDB
+modèle de données JSON pour une collection sur MongoDB
 
 <img src="img/modele_bd_json.png" alt="" width="300px" >
 

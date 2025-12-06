@@ -26,7 +26,7 @@ dans **chaine_pico_streamlit**, diagramme de déploiement, composants
 
 PlantUML, https://www.planttext.com/
 
-```UML
+```
 @startuml
 Title "Diagramme de déploiement (WiFi)"
 '----------
@@ -99,7 +99,7 @@ dans **systeme_alarme_rpi**
 
 diagramme d'état
 
-```uml
+```
 @startuml
 [*] -down-> DÉSARMÉ
 

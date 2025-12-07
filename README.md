@@ -14,7 +14,7 @@ Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entre
 
 Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques. Le PDF est le format principal du LaTeX. Le SVG doit être converti en PDF pour le LaTeX. Le SVG passe aussi avec le Markdown et le HTML. Le grand avantage du vectoriel est la capacité de changer l'échelle sans perdre en qualité :
  
- <img src="img/matricielle_vs_vecteur.jpg" alt="" width="300px" > |
+ <img src="img/matricielle_vs_vecteur.jpg" alt="" width="300px" >
 
 Cette image peut être un dessin matriciel ou vectoriel :
 
@@ -147,19 +147,13 @@ Modèle de données JSON pour une collection sur MongoDB.  Résultats en PNG dan
 
 ### Fritzing
 
-PlantUML est un langage pour concevoir des dessins vectoriels. Quelques exemples suivent. Il faut programmer avec un logiciel en ligne comme https://www.planttext.com/ ou installer un logiciel en local. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré. Le code source se sauvegarde dans un fichier texte ou s'ajoute dans un fichier comme avec ce README.md. L'image s'exporte en PNG, SVG et PDF.
+Fritzing est un logiciel avec GUI de dessins matriciels, spécialisé en schéma électriques et électroniques. Quelques exemples suivent.
 
-Fritzing, dessin avec GUI
+Schémas en JPG dans le dépôt : **systeme_alarme_rpi**.
 
-dans **systeme_alarme_rpi**
-
-schéma de montage, raster
-
-<img src="img/schema_montage_fritzing.jpg" alt="" width="300px" >
-
-schéma de circuit électrique
-
-<img src="img/schema_electrique_fritzing.jpg" alt="" width="300px" >
+| Schéma de montage | Schéma de circuit électrique |
+|---|---|
+| <img src="img/schema_montage_fritzing.jpg" alt="" > | <img src="img/schema_electrique_fritzing.jpg" alt="" > |
 
 
 ## Dessiner avec un langage

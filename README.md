@@ -2,17 +2,62 @@
 
 Un complément aux dépôts : **documentations_web_statiques** et **latex_pocket_book**.
 
+## Éditeurs LaTeX
+
+Pour les images, le PDF est le format du LaTeX. Les formats PNG, JPG et JPEG passent aussi. Par contre, le SVG doit être converti en PDF.
+
+Il est possible de dessiner en LaTeX grâce au module TikZ/PGF :
+
+- Documentation en ligne et en PDF téléchargeable, galerie d'exemples.
+- Beaucoup de références, de démos, de contenu pour apprendre.
+- Dans un éditeur LaTeX en local ou en ligne.
+- Nombreuses extensions spécialisées en diagrammes et schémas pour les mathématiques, la physique, l'informatique, la chimie, l'électricité, les réseaux, etc.
+
+C'est un langage qui se matérialise en dessins PDF. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré.
+
+Contenu du fichier TEX pour créer un diagramme :
+
+```latex
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\begin{document}
+
+\begin{tikzpicture}[
+roundnode/.style={circle, draw=green!60, fill=green!5, very thick, minimum size=7mm},
+squarednode/.style={rectangle, draw=red!60, fill=red!5, very thick, minimum size=5mm},
+]
+%Nodes
+\node[squarednode]      (maintopic)                              {2};
+\node[roundnode]        (uppercircle)       [above=of maintopic] {1};
+\node[squarednode]      (rightsquare)       [right=of maintopic] {3};
+\node[roundnode]        (lowercircle)       [below=of maintopic] {4};
+
+%Lines
+\draw[->] (uppercircle.south) -- (maintopic.north);
+\draw[->] (maintopic.east) -- (rightsquare.west);
+\draw[->] (rightsquare.south) .. controls +(down:7mm) and +(right:7mm) .. (lowercircle.east);
+\end{tikzpicture}
+
+\end{document}
+```
+
+Le résultat en PNG :
+
+<img src="img/tikz_diagramme.png" alt="" width="300px" >
+
 ## Vectoriel vs matriciel 
 
 <img src="img/raster_vs_vector.jpg" alt="" width="300px" >
 
-Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entreprise, un dessin conceptuel pour illustrer un projet, etc. Ce sont des images matricielles (matrix, raster) à base de pixels. Les principaux formats sont : PNG, JPG, JPEG et GIF. Ces formats sont utilisés avec le Markdown, le HTML et les traitements de textes, mais passent aussi avec le LaTeX.
+Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entreprise, un dessin conceptuel pour illustrer un projet, etc. Ce sont des images matricielles (matrix, raster) à base de pixels. Les principaux formats sont : PNG, JPG, JPEG et GIF. Ces formats sont utilisés avec le Markdown, le HTML et les traitements de textes.
 
 | Photo  | Dessin conceptuel  |
 |---|---|
 | <img src="img/reed_switch2.jpg" alt="" width="300px" > | <img src="img/reed_switch1.jpg" alt="" width="300px" > |
 
-Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques. Le PDF est le format du LaTeX. Le SVG doit être converti en PDF pour le LaTeX. Le SVG passe aussi avec le Markdown et le HTML. Le grand avantage du vectoriel est la capacité de changer l'échelle sans perdre en qualité :
+Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques. Le SVG passe avec le Markdown et le HTML. Le grand avantage du vectoriel est la capacité de changer l'échelle sans perdre en qualité :
  
  <img src="img/matricielle_vs_vecteur.jpg" alt="" width="300px" >
 
@@ -27,9 +72,18 @@ Peu importe le format de la documentation, les dessins ajoutent beaucoup de vale
 - diagrammes et schémas en tous genres,
 - illustrations pour un domaine (géométrie, chimie, biologie, etc.).
 
+## Logiciels de dessins
+
+Il existe deux approches :
+
+- Avec un langage comme PlantUML.
+- Avec un GUI comme Fritzing.
+
 ### PlantUML
 
-PlantUML est un langage pour concevoir des **dessins vectoriels**. Quelques exemples suivent. Il faut programmer avec un logiciel en ligne comme https://www.planttext.com/ ou installer un logiciel en local. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré. Le code source se sauvegarde dans un fichier texte ou s'ajoute dans un fichier comme avec ce README.md. L'image vectorielle s'exporte en SVG, PDF mais aussi en PNG par conversion.
+PlantUML est un langage pour concevoir des **dessins vectoriels** spécialisés. Quelques exemples suivent.
+
+Il faut programmer avec un logiciel en ligne comme https://www.planttext.com/ ou installer un logiciel en local. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré. Le code source se sauvegarde dans un fichier texte ou s'ajoute dans un fichier comme avec ce README.md. L'image vectorielle s'exporte  en PDF; idéal pour ajouter des illustrations dans un document LaTeX. L'image s'exporte aussi en SVG et PNG comme plus bas.
 
 Code source d'un diagramme de déploiement :
 
@@ -89,17 +143,14 @@ node "Poste de développement" {
 "Documents" .-> ["Tableau \nde bord"] : API
 
 ["Programmes \nMicroPython"] --> ("vers le MCU") : USB
-
 @enduml
 ```
 
-Le résultat en PNG se retrouve dans le dépôt : **chaine_pico_streamlit**.
+Ce résultat en PNG se retrouve dans le dépôt : **chaine_pico_streamlit** :
 
 <img src="img/diagramme_deploiement_wifi.png" alt="" width="300px" >
 
-Un résultat en PDF serait mieux adapté pour le LaTeX.
-
-plus dans https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/
+On trouve plus d'illustrations de ce genre faites avec PlantUML à https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/
 
 Code source d'un diagramme d'état :
 
@@ -127,70 +178,59 @@ ALARME --> DÉSARMÉ: bouton \npressé \n(DÉSARMER)
 DÉSARMÉ -left-> [*]
 ARMÉ -left-> [*]
 ALARME -left-> [*]
-
 @enduml
 ```
 
-Le résultat en PNG se retrouve dans le dépôt : **systeme_alarme_rpi**.
+Ce résultat en PNG se retrouve dans le dépôt : **systeme_alarme_rpi** :
 
 <img src="img/diagramme_etat.jpg" alt="" width="300px" >
 
-Schémas de base de données SQL. Résultats en PNG dans le dépôt : **bases_donnees_sql_nosql**.
+Schémas de base de données SQL. Résultats en PNG dans le dépôt : **bases_donnees_sql_nosql** :
 
 | Schéma relationel | Schéma physique |
 |---|---|
 | <img src="img/physical_schema.jpg" alt="" > | <img src="img/relational_schema.jpg" alt="" > |
 
-Modèle de données JSON pour une collection sur MongoDB.  Résultats en PNG dans le dépôt : **chaine_pico_streamlit**.
+Modèle de données JSON pour une collection sur MongoDB.  Résultat en PNG dans le dépôt : **chaine_pico_streamlit** :
 
 <img src="img/modele_bd_json.png" alt="" width="300px" >
 
 ### Fritzing
 
-Fritzing est un logiciel avec GUI de dessins matriciels, spécialisé en schéma électriques et électroniques. Quelques exemples suivent.
+Fritzing est un logiciel avec GUI de dessins matriciels, spécialisé en schémas électriques et électroniques. Quelques exemples suivent.
 
-Schémas en JPG dans le dépôt : **systeme_alarme_rpi**.
+Schémas en JPG dans le dépôt : **systeme_alarme_rpi** :
 
 | Schéma de montage | Schéma de circuit électrique |
 |---|---|
 | <img src="img/schema_montage_fritzing.jpg" alt="" > | <img src="img/schema_electrique_fritzing.jpg" alt="" > |
 
+## Logiciels de dessins (suite)
 
-## Dessiner avec un langage
+### Avec un langage
 
-boostée à l'IAgen parfois
+L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré.
 
-PlantUML
-logiciel ou en ligne
-https://www.plantuml.com/
-https://plantuml.online/
-https://www.planttext.com/
-doc
-exemples plus haut
+- PlantUML
+    - Documentation en ligne et en PDF téléchargeable, galerie d'exemples.
+    - Beaucoup de références, de démos, de contenu pour apprendre.
+    - Logiciel en local.
+    - https://www.plantuml.com/
+    - https://plantuml.online/
+    - https://www.planttext.com/
+- Graphviz et le langage DOT
+    - Documentation en ligne et en PDF téléchargeable, galerie d'exemples.
+    - Beaucoup de références, de démos, de contenu pour apprendre.
+    - Logiciel en local et en ligne.
 
-ou similaire...
 
-Graphviz et langage DOT
-logiciel
-doc
-https://graphviz.org/gallery/
-IMG https://graphviz.org/Gallery/neato/ER.html
-IMG https://graphviz.org/Gallery/directed/git.html
-
-modules et extensions de modules LaTeX
-TikZ/PGF
-tikz-cd
-chemfig
-forest
-IMG
-IMG
 
 Mermaid et les autres en Markdown
 https://mermaid.js.org/
 IMG
 IMG
 
-## Dessiner avec une interface graphique
+## Dessiner avec un GUI
 
 boostée à l'IAgen parfois
 

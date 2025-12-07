@@ -201,11 +201,11 @@ Fritzing est un logiciel avec GUI de **dessins spécialisés en schémas électr
 
 Avec le logiciel, on agence des icônes et ajouter des formes géométriques (points, segments, formes). Comme tout bon logiciel de dessin, le projet peut contenir plusieurs couches ou calques. Le projet se sauvegarde dans un fichier. Le dessin s'exporte en PNG, JPG, JPEG, SVG et PDF (ce dernier format est idéal le LaTeX). Le logiciel produit des formats de production : fabrication de circuits imprimés (PCB), liste des composants et le format Eagle pour ce logiciel plus avancé que Fritzing.
 
-Schémas en JPG dans le dépôt : **systeme_alarme_rpi** :
+Schémas en JPG dans le dépôt : **systeme_alarme_rpi**.
 
 | Schéma de montage | Schéma de circuit électrique |
 |---|---|
-| <img src="img/schema_montage_fritzing.jpg" alt="" > | <img src="img/schema_electrique_fritzing.jpg" alt="" > |
+| <img src="img/schema_montage_fritzing.jpg" alt="" width="300px" > | <img src="img/schema_electrique_fritzing.jpg" alt="" width="300px" > |
 
 ## Logiciels de dessins (suite)
 

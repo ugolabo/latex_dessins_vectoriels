@@ -199,7 +199,7 @@ Modèle de données JSON pour une collection sur MongoDB.  Résultat en PNG pour
 
 Fritzing est un logiciel avec GUI de **dessins spécialisés en schémas électriques**. Quelques exemples suivent.
 
-Avec le logiciel, on agence des icônes et ajouter des formes géométriques (points, segments, formes). Comme tout bon logiciel de dessin, le projet peut contenir plusieurs couches ou calques. Le projet se sauvegarde dans un fichier. Le dessin s'exporte en PNG, JPG, JPEG, SVG et PDF (ce dernier format est idéal pour un document LaTeX). Le logiciel produit aussi de produire des formats de production : fabrication de circuits imprimés (PCB), liste des composants et le format Eagle pour ce logiciel plus avancé que Fritzing.
+Avec le logiciel, on agence des icônes et ajouter des formes géométriques (points, segments, formes). Comme tout bon logiciel de dessin, le projet peut contenir plusieurs couches ou calques. Le projet se sauvegarde dans un fichier. Le dessin s'exporte en PNG, JPG, JPEG, SVG et PDF (ce dernier format est idéal le LaTeX). Le logiciel produit des formats de production : fabrication de circuits imprimés (PCB), liste des composants et le format Eagle pour ce logiciel plus avancé que Fritzing.
 
 Schémas en JPG dans le dépôt : **systeme_alarme_rpi** :
 

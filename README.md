@@ -2,7 +2,7 @@
 
 Un complément aux dépôts : **documentations_web_statiques** et **latex_pocket_book**.
 
-## Matriciel vs vectoriel
+## Vectoriel vs matriciel 
 
 <img src="img/raster_vs_vector.jpg" alt="" width="300px" >
 

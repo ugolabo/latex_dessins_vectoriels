@@ -4,7 +4,7 @@ Un complément aux dépôts : **documentations_web_statiques** et **latex_pocket
 
 ## Matriciel vs vectoriel
 
-<img src="img/raster_vs_vector.jpg" alt="" width="100px" >
+<img src="img/raster_vs_vector.jpg" alt="" width="200px" >
 
 Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entreprise, un dessin conceptuel pour illustrer un projet... ce sont des images matricielles (matrix, raster) à base de pixels. Ce sont les formats PNG, JPG, JPEG, GIF et autres.
 

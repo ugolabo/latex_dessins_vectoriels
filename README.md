@@ -146,11 +146,11 @@ node "Poste de développement" {
 @enduml
 ```
 
-Ce résultat en PNG se retrouve dans le dépôt : **chaine_pico_streamlit** :
+Ce résultat en PNG se retrouve dans le dépôt : **chaine_pico_streamlit**.
 
 <img src="img/diagramme_deploiement_wifi.png" alt="" width="300px" >
 
-On trouve plus de ce genre d'illustrations faites avec PlantUML à https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/
+On retrouve plus de ce genre d'illustrations faites avec PlantUML à la page d'accueil de https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/
 
 Code source d'un diagramme d'état :
 
@@ -181,17 +181,17 @@ ALARME -left-> [*]
 @enduml
 ```
 
-Ce résultat en PNG se retrouve dans le dépôt : **systeme_alarme_rpi** :
+Ce résultat en PNG se retrouve dans le dépôt : **systeme_alarme_rpi**.
 
 <img src="img/diagramme_etat.jpg" alt="" width="300px" >
 
-Schémas de base de données SQL. Résultats en PNG dans le dépôt : **bases_donnees_sql_nosql** :
+Schémas de base de données SQL. Résultats en PNG dans le dépôt : **bases_donnees_sql_nosql**.
 
 | Schéma relationel | Schéma physique |
 |---|---|
 | <img src="img/physical_schema.jpg" alt="" > | <img src="img/relational_schema.jpg" alt="" > |
 
-Modèle de données JSON pour une collection sur MongoDB.  Résultat en PNG pour le projet dans le dépôt : **chaine_pico_streamlit** :
+Modèle de données JSON pour une collection sur MongoDB.  Résultat en PNG pour le projet dans le dépôt : **chaine_pico_streamlit**.
 
 <img src="img/modele_bd_json.png" alt="" width="300px" >
 

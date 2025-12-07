@@ -43,7 +43,7 @@ squarednode/.style={rectangle, draw=red!60, fill=red!5, very thick, minimum size
 \end{document}
 ```
 
-Le résultat en PNG :
+Le résultat PDF converti en PNG :
 
 <img src="img/tikz_diagramme.png" alt="" width="300px" >
 

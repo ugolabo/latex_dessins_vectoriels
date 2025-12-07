@@ -83,7 +83,7 @@ Il existe deux approches :
 
 PlantUML est un langage pour concevoir des **dessins spécialisés**. Quelques exemples suivent.
 
-Il faut programmer avec un logiciel en ligne comme https://www.planttext.com/ ou installer un logiciel en local. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré. Le code source se sauvegarde dans un fichier ou s'ajoute à un contenu comme avec ce README.md. Le dessin s'exporte en PDF; le format idéal pour ajouter des images dans un document LaTeX. Le dessin s'exporte aussi en SVG et PNG.
+Il faut programmer avec un logiciel en ligne comme https://www.planttext.com/ ou installer un logiciel en local. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré. Le code source se sauvegarde dans un fichier ou s'ajoute à un contenu comme avec ce README.md. Le dessin s'exporte en PDF; le format idéal pour le LaTeX. Le dessin s'exporte aussi en SVG et PNG.
 
 Code source d'un diagramme de déploiement :
 

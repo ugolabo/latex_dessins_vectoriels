@@ -12,7 +12,7 @@ photo
 
 | Photo  | Dessin conceptuel  |
 |---|---|
-| <img src="img/reed_switch2.jpg" alt=""> | <img src="img/reed_switch1.jpg" alt="" > |
+| <img src="img/reed_switch2.jpg" alt=""> | <img src="img/reed_switch1.jpg" alt="" width="200px" > |
 
 Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques.
 

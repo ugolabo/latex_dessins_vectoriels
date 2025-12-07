@@ -205,7 +205,7 @@ Schémas en JPG dans le dépôt : **systeme_alarme_rpi**.
 
 | Schéma de montage | Schéma de circuit électrique |
 |---|---|
-| <img src="img/schema_montage_fritzing.jpg" alt="" width="300px" > | <img src="img/schema_electrique_fritzing.jpg" alt="" width="300px" > |
+| <img src="img/schema_montage_fritzing.jpg" alt="" width="500px" > | <img src="img/schema_electrique_fritzing.jpg" alt="" width="500px" > |
 
 ## Logiciels de dessins (suite)
 

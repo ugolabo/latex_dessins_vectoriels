@@ -154,7 +154,7 @@ On trouve plus d'illustrations de ce genre faites avec PlantUML à https://touca
 
 Code source d'un diagramme d'état :
 
-```
+```plantuml
 @startuml
 [*] -down-> DÉSARMÉ
 

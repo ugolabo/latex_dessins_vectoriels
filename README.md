@@ -6,7 +6,7 @@ Un complément aux dépôts : **documentations_web_statiques** et **latex_pocket
 
 <img src="img/raster_vs_vector.jpg" alt="" width="300px" >
 
-Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entreprise, un dessin conceptuel pour illustrer un projet... ce sont des images matricielles (matrix, raster) à base de pixels. Ce sont les formats PNG, JPG, JPEG, GIF et autres. Ce sont les principaux formats utilisés avec le Markdown, le HTML et les traitements de textes. Ces formats passent aussi avec le LaTeX.
+Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entreprise, un dessin conceptuel pour illustrer un projet, etc. Ce sont des images matricielles (matrix, raster) à base de pixels. Ce sont les formats PNG, JPG, JPEG, GIF et autres. Ce sont les principaux formats utilisés avec le Markdown, le HTML et les traitements de textes. Ces formats passent aussi avec le LaTeX.
 
 | Photo  | Dessin conceptuel  |
 |---|---|

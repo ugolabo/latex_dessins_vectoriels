@@ -6,15 +6,15 @@ Un complément aux dépôts : **documentations_web_statiques** et **latex_pocket
 
 <img src="img/raster_vs_vector.jpg" alt="" width="300px" >
 
-Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entreprise, un dessin conceptuel pour illustrer un projet... ce sont des images matricielles (matrix, raster) à base de pixels. Ce sont les formats PNG, JPG, JPEG, GIF et autres.
+Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entreprise, un dessin conceptuel pour illustrer un projet... ce sont des images matricielles (matrix, raster) à base de pixels. Ce sont les formats PNG, JPG, JPEG, GIF et autres. Ce sont les principaux formats utilisés avec le Markdown, le HTML et les traitements de textes. Ces formats passent aussi avec le LaTeX.
 
 | Photo  | Dessin conceptuel  |
 |---|---|
 | <img src="img/reed_switch2.jpg" alt="" width="300px" > | <img src="img/reed_switch1.jpg" alt="" width="300px" > |
 
-Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques. Le grand avantage du vectoriel est la capacité de changer l'échelle sans perdre en qualité.
+Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques. Le PDF est le format principal du LaTeX. Le SVG doit être converti en PDF pour le LaTeX. Le SVG passe aussi avec le Markdown et le HTML. Le grand avantage du vectoriel est la capacité de changer l'échelle sans perdre en qualité :
  
- <img src="img/matricielle_vs_vecteur.jpg" alt="" width="200px" > |
+ <img src="img/matricielle_vs_vecteur.jpg" alt="" width="300px" > |
 
 Cette image peut être un dessin matriciel ou vectoriel :
 
@@ -22,17 +22,16 @@ Cette image peut être un dessin matriciel ou vectoriel :
 
 ## Dessins vectoriels
 
-Peu importe le format de la documentation, les dessins ajoutent beaucoup de valeur à une documentation web ou un document :
+Peu importe le format de la documentation, les dessins ajoutent beaucoup de valeur :
 
-- diagrammes en tous genres,
-- illustration d'un domaine (géométrie, chimie, biologie, etc.),
-- schéma de données, de réseaux, de programmes, de projets, etc.
+- diagrammes et schémas en tous genres,
+- illustrations pour un domaine (géométrie, chimie, biologie, etc.).
 
-Rendu PDF s'intègre à LaTeX, rendu SVG doit être converti, mais il s'intègre au Markdown. La conversion aussi en PNG, JPG pour Markdown, sites
+### PlantUML
 
-PlantUML, dessin avec langage dans https://www.planttext.com/ ou autre
+PlantUML est un langage pour concevoir des dessins vectoriels. Quelques exemples suivent. Il faut programmer avec un logiciel en ligne comme https://www.planttext.com/ ou installer un logiciel en local. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré. Le code source se sauvegarde dans un fichier texte ou s'ajoute dans un fichier comme avec ce README.md. L'image s'exporte en PNG, SVG et PDF.
 
-dans **chaine_pico_streamlit**, diagramme de déploiement (composants)
+Code source d'un diagramme de déploiement :
 
 ```
 @startuml
@@ -94,18 +93,15 @@ node "Poste de développement" {
 @enduml
 ```
 
-PNG ici
+Le résultat en PNG se retrouve dans le dépôt : **chaine_pico_streamlit**.
 
 <img src="img/diagramme_deploiement_wifi.png" alt="" width="300px" >
 
-mais aussi SVG et PDF pour LaTeX
+Un résultat en PDF serait mieux adapté pour le LaTeX.
 
 plus dans https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/
 
-
-dans **systeme_alarme_rpi**
-
-diagramme d'état
+Code source d'un diagramme d'état :
 
 ```
 @startuml
@@ -135,25 +131,23 @@ ALARME -left-> [*]
 @enduml
 ```
 
-PNG ici
+Le résultat en PNG se retrouve dans le dépôt : **systeme_alarme_rpi**.
 
 <img src="img/diagramme_etat.jpg" alt="" width="300px" >
 
-dans **bases_donnees_sql_nosql**
+Schémas de base de données SQL. Résultats en PNG dans le dépôt : **bases_donnees_sql_nosql**.
 
-schémas de BD SQL
-
-| schéma relationel | schéma physique |
+| Schéma relationel | Schéma physique |
 |---|---|
 | <img src="img/physical_schema.jpg" alt="" > | <img src="img/relational_schema.jpg" alt="" > |
 
-
-dans **chaine_pico_streamlit**
-
-modèle de données JSON pour une collection sur MongoDB
+Modèle de données JSON pour une collection sur MongoDB.  Résultats en PNG dans le dépôt : **chaine_pico_streamlit**.
 
 <img src="img/modele_bd_json.png" alt="" width="300px" >
 
+### Fritzing
+
+PlantUML est un langage pour concevoir des dessins vectoriels. Quelques exemples suivent. Il faut programmer avec un logiciel en ligne comme https://www.planttext.com/ ou installer un logiciel en local. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré. Le code source se sauvegarde dans un fichier texte ou s'ajoute dans un fichier comme avec ce README.md. L'image s'exporte en PNG, SVG et PDF.
 
 Fritzing, dessin avec GUI
 

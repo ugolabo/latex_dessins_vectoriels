@@ -4,9 +4,7 @@ Un complément aux dépôts : **documentations_web_statiques** et **latex_pocket
 
 ## Matriciel vs vectoriel
 
-|   |   |
-|---|---|
-|  <img src="img/raster_vs_vector.jpg" alt="" > | <img src="img/matricielle_vs_vecteur.jpg" alt="" > |
+<img src="img/raster_vs_vector.jpg" alt="" width="100px" >
 
 Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entreprise, un dessin conceptuel pour illustrer un projet... ce sont des images matricielles (matrix, raster) à base de pixels. Ce sont les formats PNG, JPG, JPEG, GIF et autres.
 
@@ -21,6 +19,10 @@ Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faite
 peut être un dessin matriciel ou vectoriel
 
 <img src="img/reed_switch3.jpg" alt="" width="300px" >
+
+ Le grand avantage du vectoriel est la capacité de changer l'échelle sans perdre en qualité.
+ 
+ <img src="img/matricielle_vs_vecteur.jpg" alt="" width="100px" > |
 
 ## Dessins vectoriels
 

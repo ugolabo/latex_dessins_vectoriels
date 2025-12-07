@@ -8,11 +8,11 @@ Un complément aux dépôts : **documentations_web_statiques** et **latex_pocket
 |---|---|
 |  <img src="img/raster_vs_vector.jpg" alt="" > | <img src="img/matricielle_vs_vecteur.jpg" alt="" > |
 
-Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entreprise, un dessin conceptuel pour illustrer un projet, une animation avec GIF... ce sont des images matricielles (matrix, raster) à base de pixels comme les format PNG, JPG, JPEG et autres.
+Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entreprise, un dessin conceptuel pour illustrer un projet... ce sont des images matricielles (matrix, raster) à base de pixels. Ce sont les formats PNG, JPG, JPEG, GIF et autres.
 
 photo
 
-<img src="img/reed_switch2.jpg" alt="" width="300px" >
+<img src="img/reed_switch2.jpg" alt="Photo." width="300px" >
 
 dessin conceptuel
 

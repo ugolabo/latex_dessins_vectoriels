@@ -20,7 +20,7 @@ Cette image peut être un dessin matriciel ou vectoriel :
 
 <img src="img/reed_switch3.jpg" alt="" width="300px" >
 
-## Dessins vectoriels
+## Dessins
 
 Peu importe le format de la documentation, les dessins ajoutent beaucoup de valeur :
 
@@ -29,7 +29,7 @@ Peu importe le format de la documentation, les dessins ajoutent beaucoup de vale
 
 ### PlantUML
 
-PlantUML est un langage pour concevoir des dessins vectoriels. Quelques exemples suivent. Il faut programmer avec un logiciel en ligne comme https://www.planttext.com/ ou installer un logiciel en local. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré. Le code source se sauvegarde dans un fichier texte ou s'ajoute dans un fichier comme avec ce README.md. L'image s'exporte en PNG, SVG et PDF.
+PlantUML est un langage pour concevoir des **dessins vectoriels**. Quelques exemples suivent. Il faut programmer avec un logiciel en ligne comme https://www.planttext.com/ ou installer un logiciel en local. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré. Le code source se sauvegarde dans un fichier texte ou s'ajoute dans un fichier comme avec ce README.md. L'image vectorielle s'exporte en SVG, PDF mais aussi en PNG par conversion.
 
 Code source d'un diagramme de déploiement :
 

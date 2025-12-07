@@ -189,7 +189,7 @@ Schémas de base de données SQL. Résultats en PNG dans le dépôt : **bases_do
 
 | Schéma relationel | Schéma physique |
 |---|---|
-| <img src="img/physical_schema.jpg" alt="" > | <img src="img/relational_schema.jpg" alt="" > |
+| <img src="img/physical_schema.jpg" alt="" width="500px" > | <img src="img/relational_schema.jpg" alt="" width="500px" > |
 
 Modèle de données JSON pour une collection sur MongoDB.  Résultat en PNG pour le projet dans le dépôt : **chaine_pico_streamlit**.
 

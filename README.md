@@ -51,13 +51,13 @@ Le résultat PDF converti en PNG :
 
 <img src="img/raster_vs_vector.jpg" alt="" width="300px" >
 
-Une photo ou une capture d'écran avec annotations sont des images matricielles (matrix, raster) à base de pixels. Les principaux formats sont : PNG, JPG, JPEG et GIF. Ces formats sont utilisés avec le Markdown, le HTML et les traitements de textes.
+Une photo ou une capture d'écran avec annotations sont des images matricielles (matrix, raster) à base de pixels. Les principaux formats sont : PNG, JPG, JPEG et GIF. Ces formats sont utilisés avec le Markdown, le HTML, les traitements de textes et le LaTeX.
 
 | Photo  | Dessin conceptuel  |
 |---|---|
 | <img src="img/reed_switch2.jpg" alt="" width="300px" > | <img src="img/reed_switch1.jpg" alt="" width="300px" > |
 
-Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques. Le SVG passe avec le Markdown, le HTML et les traitements de textes. Le grand avantage du vectoriel est la capacité de changer l'échelle sans perdre en qualité :
+Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques. Le SVG passe avec le Markdown, le HTML et les traitements de textes. Le PDF est idéal pour le LaTeX. Le grand avantage du vectoriel est la capacité de changer l'échelle sans perdre en qualité :
  
  <img src="img/matricielle_vs_vecteur.jpg" alt="" width="300px" >
 
@@ -68,7 +68,7 @@ Peu importe le format de la documentation, les dessins ajoutent beaucoup de vale
 - diagrammes et schémas en tous genres,
 - illustrations pour un domaine (géométrie, chimie, biologie, etc.).
 
-Les diagrammes, les schémas et les illustrations peuvent être fait en matriciel ou en vectoriel. Ce dessin peut être matriciel ou vectoriel :
+Les diagrammes, les schémas et les illustrations peuvent être faites en matriciel ou en vectoriel. Ce dessin peut être matriciel ou vectoriel :
 
 <img src="img/reed_switch3.jpg" alt="" width="300px" >
 
@@ -150,7 +150,7 @@ Ce résultat en PNG se retrouve dans le dépôt : **chaine_pico_streamlit** :
 
 <img src="img/diagramme_deploiement_wifi.png" alt="" width="300px" >
 
-On trouve plus d'illustrations de ce genre faites avec PlantUML à https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/
+On trouve plus de ce genre d'illustrations faites avec PlantUML à https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/
 
 Code source d'un diagramme d'état :
 
@@ -199,7 +199,7 @@ Modèle de données JSON pour une collection sur MongoDB.  Résultat en PNG pour
 
 Fritzing est un logiciel avec GUI de **dessins spécialisés en schémas électriques**. Quelques exemples suivent.
 
-Il faut utiliser la clavier et la souris avec le logiciel pour agencer des icônes et ajouter des formes géométriques (points, segments, formes). Comme tout bon logiciel de dessin, le projet peut avoir plusieurs couches. Le projet se sauvegarde dans un fichier. Le dessin s'exporte en PNG. Le dessin matriciel s'exporte aussi en JPG, JPEG, SVG et PDF (ce dernier format est idéal pour un document LaTeX). Le logiciel produit aussi des formats de production pour la fabrication de circuits imprimés, des fichiers CSV pour la liste des composants et le format Eagle pour ce logiciel plus avancé.
+Avec le logiciel, on agence des icônes et ajouter des formes géométriques (points, segments, formes). Comme tout bon logiciel de dessin, le projet peut contenir plusieurs couches ou calques. Le projet se sauvegarde dans un fichier. Le dessin s'exporte en PNG, JPG, JPEG, SVG et PDF (ce dernier format est idéal pour un document LaTeX). Le logiciel produit aussi de produire des formats de production : fabrication de circuits imprimés (PCB), liste des composants et le format Eagle pour ce logiciel plus avancé que Fritzing.
 
 Schémas en JPG dans le dépôt : **systeme_alarme_rpi** :
 
@@ -214,18 +214,18 @@ Schémas en JPG dans le dépôt : **systeme_alarme_rpi** :
 Ces langages produisent principalement des **dessins spécialisés**. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré.
 
 - PlantUML
-    - Documentation en ligne et en PDF téléchargeable, galerie d'exemples.
+    - Documentation en ligne et en PDF téléchargeables, galeries d'exemples.
     - Beaucoup de références, de démos, de contenu pour apprendre.
     - Logiciel open source en local ou en ligne.
         - https://www.plantuml.com/
         - https://plantuml.online/
         - https://www.planttext.com/
 - Graphviz et le langage DOT
-    - Documentation en ligne et en PDF téléchargeable, galerie d'exemples.
+    - Documentation en ligne et en PDF téléchargeables, galeries d'exemples.
     - Beaucoup de références, de démos, de contenu pour apprendre.
     - Logiciel en local et en ligne.
 - Mermaid
-    - Documentation en ligne et en PDF téléchargeable, galerie d'exemples.
+    - Documentation en ligne et en PDF téléchargeables, galeries d'exemples.
     - Beaucoup de références, de démos, de contenu pour apprendre.
     - Logiciel en local et en ligne.
 
@@ -233,10 +233,10 @@ Et bien d'autres.
 
 ## GUI
 
-Ces logiciels permettent de faire toutes sortes de dessins. Les logiciels offrent de plus en plus un moyen d'utiliser l'IA générative pour "dicter" un dessin. C'est une option pour démarrer plus rapidement ou peaufiner un dessin.
+Certains logiciels ne sont pas spécialisés comme Fritzing et permettent de faire toutes sortes de dessins. Certains logiciels intègrent l'IA générative pour "dicter" un dessin. C'est une option pour démarrer plus rapidement ou pour peaufiner un dessin.
 
 - Fritzing
-    - Documentation en ligne et en PDF téléchargeable, galerie d'exemples.
+    - Documentation en ligne et en PDF téléchargeables, galeries d'exemples.
     - Beaucoup de références, de démos, de contenu pour apprendre.
     - Logiciel open source en local.
 - Dia
@@ -250,7 +250,6 @@ Ces logiciels permettent de faire toutes sortes de dessins. Les logiciels offren
 - Lucidchart
 - Miro
 - AutoCAD / FreeCAD
+- bioRender
 
 Et bien d'autres.
-bioRender
-

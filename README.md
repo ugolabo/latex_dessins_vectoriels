@@ -4,16 +4,16 @@ Un complément aux dépôts : **documentations_web_statiques** et **latex_pocket
 
 ## Éditeurs LaTeX
 
-Pour les images, le PDF est le format du LaTeX. Les formats PNG, JPG et JPEG passent aussi. Par contre, le SVG doit être converti en PDF.
+Pour les images, le PDF est le format idéal du LaTeX. Les formats PNG, JPG et JPEG passent aussi. Par contre, le SVG doit être converti en PDF.
 
 Il est possible de dessiner en LaTeX grâce au module TikZ/PGF :
 
-- Documentation en ligne et en PDF téléchargeable, galerie d'exemples.
+- Documentation en ligne et en PDF téléchargeable, galeries d'exemples.
 - Beaucoup de références, de démos, de contenu pour apprendre.
 - Dans un éditeur LaTeX en local ou en ligne.
 - Nombreuses extensions spécialisées en diagrammes et schémas pour les mathématiques, la physique, l'informatique, la chimie, l'électricité, les réseaux, etc.
 
-C'est un langage qui se matérialise en dessins PDF. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré.
+C'est un langage de programmation qui se matérialise en dessins PDF. On peut exporter le dessin en d'autres formats. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré.
 
 Contenu du fichier TEX pour créer un diagramme :
 
@@ -51,19 +51,15 @@ Le résultat PDF converti en PNG :
 
 <img src="img/raster_vs_vector.jpg" alt="" width="300px" >
 
-Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entreprise, un dessin conceptuel pour illustrer un projet, etc. Ce sont des images matricielles (matrix, raster) à base de pixels. Les principaux formats sont : PNG, JPG, JPEG et GIF. Ces formats sont utilisés avec le Markdown, le HTML et les traitements de textes.
+Une photo ou une capture d'écran avec annotations sont des images matricielles (matrix, raster) à base de pixels. Les principaux formats sont : PNG, JPG, JPEG et GIF. Ces formats sont utilisés avec le Markdown, le HTML et les traitements de textes.
 
 | Photo  | Dessin conceptuel  |
 |---|---|
 | <img src="img/reed_switch2.jpg" alt="" width="300px" > | <img src="img/reed_switch1.jpg" alt="" width="300px" > |
 
-Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques. Le SVG passe avec le Markdown et le HTML. Le grand avantage du vectoriel est la capacité de changer l'échelle sans perdre en qualité :
+Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques. Le SVG passe avec le Markdown, le HTML et les traitements de textes. Le grand avantage du vectoriel est la capacité de changer l'échelle sans perdre en qualité :
  
  <img src="img/matricielle_vs_vecteur.jpg" alt="" width="300px" >
-
-Cette image peut être un dessin matriciel ou vectoriel :
-
-<img src="img/reed_switch3.jpg" alt="" width="300px" >
 
 ## Dessins
 
@@ -72,18 +68,22 @@ Peu importe le format de la documentation, les dessins ajoutent beaucoup de vale
 - diagrammes et schémas en tous genres,
 - illustrations pour un domaine (géométrie, chimie, biologie, etc.).
 
+Les diagrammes, les schémas et les illustrations peuvent être fait en matriciel ou en vectoriel. Ce dessin peut être matriciel ou vectoriel :
+
+<img src="img/reed_switch3.jpg" alt="" width="300px" >
+
 ## Logiciels de dessins
 
 Il existe deux approches :
 
-- Avec un langage comme PlantUML.
-- Avec un GUI comme Fritzing.
+- Avec un langage.
+- Avec un GUI.
 
-### PlantUML
+### Langage : PlantUML
 
-PlantUML est un langage pour concevoir des **dessins vectoriels** spécialisés. Quelques exemples suivent.
+PlantUML est un langage pour concevoir des **dessins spécialisés**. Quelques exemples suivent.
 
-Il faut programmer avec un logiciel en ligne comme https://www.planttext.com/ ou installer un logiciel en local. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré. Le code source se sauvegarde dans un fichier texte ou s'ajoute dans un fichier comme avec ce README.md. L'image vectorielle s'exporte  en PDF; idéal pour ajouter des illustrations dans un document LaTeX. L'image s'exporte aussi en SVG et PNG comme plus bas.
+Il faut programmer avec un logiciel en ligne comme https://www.planttext.com/ ou installer un logiciel en local. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré. Le code source se sauvegarde dans un fichier texte ou s'ajoute dans un fichier comme avec ce README.md. Le dessin s'exporte en PDF; le format idéal pour ajouter des images dans un document LaTeX. Le dessin s'exporte aussi en SVG et PNG.
 
 Code source d'un diagramme de déploiement :
 
@@ -191,13 +191,15 @@ Schémas de base de données SQL. Résultats en PNG dans le dépôt : **bases_do
 |---|---|
 | <img src="img/physical_schema.jpg" alt="" > | <img src="img/relational_schema.jpg" alt="" > |
 
-Modèle de données JSON pour une collection sur MongoDB.  Résultat en PNG dans le dépôt : **chaine_pico_streamlit** :
+Modèle de données JSON pour une collection sur MongoDB.  Résultat en PNG pour le projet dans le dépôt : **chaine_pico_streamlit** :
 
 <img src="img/modele_bd_json.png" alt="" width="300px" >
 
-### Fritzing
+### GUI : Fritzing
 
-Fritzing est un logiciel avec GUI de dessins matriciels, spécialisé en schémas électriques et électroniques. Quelques exemples suivent.
+Fritzing est un logiciel avec GUI de **dessins spécialisés en schémas électriques**. Quelques exemples suivent.
+
+Il faut utiliser la clavier et la souris avec le logiciel pour agencer des icônes et ajouter des formes géométriques (points, segments, formes). Comme tout bon logiciel de dessin, le projet peut avoir plusieurs couches. Le projet se sauvegarde dans un fichier. Le dessin s'exporte en PNG. Le dessin matriciel s'exporte aussi en JPG, JPEG, SVG et PDF (ce dernier format est idéal pour un document LaTeX). Le logiciel produit aussi des formats de production pour la fabrication de circuits imprimés, des fichiers CSV pour la liste des composants et le format Eagle pour ce logiciel plus avancé.
 
 Schémas en JPG dans le dépôt : **systeme_alarme_rpi** :
 
@@ -207,50 +209,48 @@ Schémas en JPG dans le dépôt : **systeme_alarme_rpi** :
 
 ## Logiciels de dessins (suite)
 
-### Avec un langage
+### Langages
 
-L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré.
+Ces langages produisent principalement des **dessins spécialisés**. L'IA générative accélère la programmation et évite le tâtonnement pour arriver au résultat désiré.
 
 - PlantUML
     - Documentation en ligne et en PDF téléchargeable, galerie d'exemples.
     - Beaucoup de références, de démos, de contenu pour apprendre.
-    - Logiciel en local.
-    - https://www.plantuml.com/
-    - https://plantuml.online/
-    - https://www.planttext.com/
+    - Logiciel open source en local ou en ligne.
+        - https://www.plantuml.com/
+        - https://plantuml.online/
+        - https://www.planttext.com/
 - Graphviz et le langage DOT
     - Documentation en ligne et en PDF téléchargeable, galerie d'exemples.
     - Beaucoup de références, de démos, de contenu pour apprendre.
     - Logiciel en local et en ligne.
+- Mermaid
+    - Documentation en ligne et en PDF téléchargeable, galerie d'exemples.
+    - Beaucoup de références, de démos, de contenu pour apprendre.
+    - Logiciel en local et en ligne.
 
+Et bien d'autres.
 
+## GUI
 
-Mermaid et les autres en Markdown
-https://mermaid.js.org/
-IMG
-IMG
+Ces logiciels permettent de faire toutes sortes de dessins. Les logiciels offrent de plus en plus un moyen d'utiliser l'IA générative pour "dicter" un dessin. C'est une option pour démarrer plus rapidement ou peaufiner un dessin.
 
-## Dessiner avec un GUI
+- Fritzing
+    - Documentation en ligne et en PDF téléchargeable, galerie d'exemples.
+    - Beaucoup de références, de démos, de contenu pour apprendre.
+    - Logiciel open source en local.
+- Dia
+- draw.io
+- Inkscape
+- Vectr
+- Adobe Illustrator
+- Affinity Designer
+- CorelDRAW
+- Microsoft Visio
+- Lucidchart
+- Miro
+- AutoCAD / FreeCAD
 
-boostée à l'IAgen parfois
-
-Fritzing
-logiciel
-doc
-exemples plus haut
-
-liste :
-
-Dia
-draw.io
-Inkscape
-Vectr
-Adobe Illustrator
-Affinity Designer
-CorelDRAW
-Microsoft Visio
-Lucidchart
-Miro
-AutoCAD / FreeCAD
+Et bien d'autres.
 bioRender
 

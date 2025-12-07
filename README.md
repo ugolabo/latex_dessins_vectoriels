@@ -87,7 +87,7 @@ Il faut programmer avec un logiciel en ligne comme https://www.planttext.com/ ou
 
 Code source d'un diagramme de déploiement :
 
-```
+```plantuml
 @startuml
 Title "Diagramme de déploiement (WiFi)"
 '----------

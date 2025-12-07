@@ -12,7 +12,7 @@ Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entre
 |---|---|
 | <img src="img/reed_switch2.jpg" alt="" width="300px" > | <img src="img/reed_switch1.jpg" alt="" width="300px" > |
 
-Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques. Le PDF est le format principal du LaTeX. Le SVG doit être converti en PDF pour le LaTeX. Le SVG passe aussi avec le Markdown et le HTML. Le grand avantage du vectoriel est la capacité de changer l'échelle sans perdre en qualité :
+Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques. Le PDF est le format du LaTeX. Le SVG doit être converti en PDF pour le LaTeX. Le SVG passe aussi avec le Markdown et le HTML. Le grand avantage du vectoriel est la capacité de changer l'échelle sans perdre en qualité :
  
  <img src="img/matricielle_vs_vecteur.jpg" alt="" width="300px" >
 

@@ -8,21 +8,17 @@ Un complément aux dépôts : **documentations_web_statiques** et **latex_pocket
 
 Une photo, une capture d'écran avec annotations, un logo de logiciel ou d'entreprise, un dessin conceptuel pour illustrer un projet... ce sont des images matricielles (matrix, raster) à base de pixels. Ce sont les formats PNG, JPG, JPEG, GIF et autres.
 
-photo
-
 | Photo  | Dessin conceptuel  |
 |---|---|
 | <img src="img/reed_switch2.jpg" alt="" width="300px" > | <img src="img/reed_switch1.jpg" alt="" width="300px" > |
 
-Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques.
+Les images vectorielles (vector) comme les formats PDF et SVG sont plutôt faites de points, de segments, de polygones et de formes qui peuvent s'exprimer avec des vecteurs mathématiques. Le grand avantage du vectoriel est la capacité de changer l'échelle sans perdre en qualité.
+ 
+ <img src="img/matricielle_vs_vecteur.jpg" alt="" width="200px" > |
 
-peut être un dessin matriciel ou vectoriel
+Cette image peut être un dessin matriciel ou vectoriel :
 
 <img src="img/reed_switch3.jpg" alt="" width="300px" >
-
- Le grand avantage du vectoriel est la capacité de changer l'échelle sans perdre en qualité.
- 
- <img src="img/matricielle_vs_vecteur.jpg" alt="" width="100px" > |
 
 ## Dessins vectoriels
 
